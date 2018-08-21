@@ -1,0 +1,36 @@
+html * {
+   font-family: Stratum !important;
+   color: #A5A6A7;
+}
+
+body {
+    background:  url("../images/gif.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.card {
+    background: #223344;
+}
+
+#userScore {
+    width: 12rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+#jumbotronBackground {
+    background: #223344;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+
+@font-face {
+    font-family: 'Stratum'; /*custom font from .ttf file*/
+    src: url('../images/other/StratumNo1\ Light.ttf'); 
+}
